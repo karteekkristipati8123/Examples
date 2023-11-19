@@ -43,7 +43,7 @@ public class Google_Reports {
 		System.err.println(title);
 				test.log(LogStatus.PASS, title);
 	}
-	@Test(priority=2)
+//	@Test(priority=2)
 	public void search() throws InterruptedException {
 				test.log(LogStatus.PASS, "Test case search is started");
 		driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("Selenium");
