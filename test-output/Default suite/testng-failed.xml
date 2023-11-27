@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.practice.Dropdown">
+      <class name="com.etsy.Login">
         <methods>
-          <include name="dd"/>
+          <include name="testlogin"/>
         </methods>
-      </class> <!-- com.practice.Dropdown -->
+      </class> <!-- com.etsy.Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
