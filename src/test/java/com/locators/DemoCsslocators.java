@@ -26,6 +26,19 @@ public class DemoCsslocators {
 		driver.navigate().back();
 		driver.findElement(By.cssSelector("#offers")).click();
 		driver.navigate().back();
+		
+		// with class
+		driver.findElement(By.cssSelector("a.Navbar_logo__26S5Y")).click();
+		driver.findElement(By.cssSelector(".Navbar_logo__26S5Y")).click();
+		driver.findElement(By.cssSelector("a[class='Navbar_logo__26S5Y']")).click();
+		
+		
+		// with Attribute
+		driver.findElement(By.cssSelector("a[href='/orders']")).click();
+		driver.navigate().back();
+		driver.findElement(By.cssSelector("")).click();
+		driver.navigate().back();
+		
 	}
 	
 }

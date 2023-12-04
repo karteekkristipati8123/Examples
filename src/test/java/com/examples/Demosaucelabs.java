@@ -28,10 +28,10 @@ public class Demosaucelabs {
 		URL url = new URL("https://ondemand.eu-central-1.saucelabs.com:443/wd/hub");
 		RemoteWebDriver driver = new RemoteWebDriver(url, browserOptions);
 		driver.manage().window().maximize();
-		driver.get("https://www.google.com/maps/@16.6022896,77.6397379,6.35z?authuser=0&entry=ttu");
-		driver.findElement(By.xpath("//form[@id='XmI62e']/input[@id='searchboxinput']")).sendKeys("Tiruvannamali");
-		Thread.sleep(3000);
-		driver.findElement(By.xpath("//div[@class='pzfvzf']/button[@id='searchbox-searchbutton']")).click();
+		driver.get("https://trytestingthis.netlify.app/");
+		driver.findElement(By.cssSelector("#fname']")).sendKeys("Kristipati");
+		driver.findElement(By.cssSelector("#lname")).sendKeys("Karthik");
+		
 		
 		
 		
